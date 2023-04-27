@@ -1,0 +1,8 @@
+n1 = input('Digite algo: ')
+print(f'Só tem números? {n1.isnumeric()}')
+n2 = input('Digite algo: ')
+print(f'Só tem letras? {n2.isalpha()}')
+n3 = input('Digite algo: ')
+print(f'Tem letras e números? {n3.isalnum()}')
+n4 = input('digite algo: ')
+print(f'Está em letras minusculas? {n4.islower()}')

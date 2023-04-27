@@ -1,0 +1,8 @@
+n = int(input('Digite um valor: '))
+print(type(n),n)
+n1 = float(input('Digite um valor: '))
+print(type(n1),n1)
+n2 = bool(input('Digite um valor: '))
+print(type(n2),n2)
+n3 = str(input('Digite um valor: '))
+print(type(n3),n3)
