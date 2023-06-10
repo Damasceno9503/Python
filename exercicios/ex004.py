@@ -17,5 +17,11 @@ m = n1 * n2
 d = n1 / n2
 di = n1 // n2
 e = n1 ** n2
-print(f'A soma é {s}, o produto é {m} e a divisão é {d:.3f}', end=' ')
-print(f'Divisão inteira {di} e potência {e}')
+cores = {'limpa' : '\033[m',
+         'vermelho' : '\033[31m',
+         'amarelo' : '\033[33m',
+         'verde' : '\033[32m',
+         'roxo' : '\033[35m',
+         'azul' : '\033[36m'}
+print(f'A soma é {cores["amarelo"]}{s}{cores["limpa"]}, o produto é {cores["verde"]}{m}{cores["limpa"]} e a divisão é {cores["vermelho"]}{d:.3f}{cores["limpa"]}', end=' ')
+print(f'Divisão inteira {cores["azul"]}{di}{cores["limpa"]} e potência {cores["roxo"]}{e}{cores["limpa"]}')
