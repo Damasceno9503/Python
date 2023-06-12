@@ -6,4 +6,6 @@ a4 = input('Quarto aluno: ')
 # lista = [a1, a2, a3, a4] #
 # escolhido = choice(lista) #
 prim = choice([a1, a2, a3, a4])
-print(f'O aluno escolhido é {prim}')
+limpa = '\033[m'
+amarelo = '\033[1;33m'
+print(f'O aluno escolhido é {amarelo}{prim}{limpa}')
