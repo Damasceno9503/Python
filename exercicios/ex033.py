@@ -13,5 +13,8 @@ if b > a and b > c:
     maior = b
 if c > a and c > b:
     maior = c
-print(f'O menor valor digitado foi {menor}')
-print(f'O maior valor digitado foi o {maior}')
+limpo = '\033[m'
+azul = '\033[34m'
+roxo = '\033[35m'
+print(f'O menor valor digitado foi {azul}{menor}{limpo}')
+print(f'O maior valor digitado foi {roxo}{maior}{limpo}')

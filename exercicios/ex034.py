@@ -3,4 +3,6 @@ if salario > 1250:
     aumento = salario + (salario * 10 / 100)
 else:
     aumento = salario + (salario * 15 / 100)
-print(f'Quem ganhava R${salario:.2f} passa a ganhar R${aumento:.2f} agora')
+limpo = '\033[m'
+verde = '\033[32m'
+print(f'Quem ganhava {verde}R${salario:.2f}{limpo} passa a ganhar {verde}R${aumento:.2f}{limpo} agora')
